@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int abhi(int arr[],int sz)
+int uniqueValue(int arr[],int sz)
 {
     int ans=0;
     for(int i=0; i<sz; i++)
@@ -14,7 +14,8 @@ int main ()
 {
     int arr[]={1,55,88,55,1};
     int sz=5;
-    cout<<"unique value is :"<<abhi(arr,sz);
+    cout<<"unique value is :"<<uniqueValue(arr,sz);
    
     return 0;
 }
+
